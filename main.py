@@ -4,6 +4,7 @@ import re
 import subprocess
 import sys
 import time
+from tkinter import *
 
 import pymysql
 
@@ -41,7 +42,7 @@ def main():
                 print(time.strftime('[%H:%M:%S]') + '日志模式已开启...')
                 print(time.strftime('[%H:%M:%S]') + '日志监听中...')
                 log = str(execSQL(db, "show variables like 'general_log_file';")[-1])
-                logMonitor(log)
+                logMonitor(log, db)
         except:
             print(time.strftime('[%H:%M:%S]') + '日志模式开启失败...')
             print(time.strftime('[%H:%M:%S]' + '未知错误 请联系https://github.com/TheKingOfDuck/MySQLMonitor/issues反馈问题...:'))
@@ -50,7 +51,7 @@ def main():
         print(time.strftime('[%H:%M:%S]') + '日志监听中...')
     log = str(execSQL(db, "show variables like 'general_log_file';")[-1])
     db.close()
-    logMonitor(log)
+    logMonitor(log, db)
 
 
 if __name__ == '__main__':
