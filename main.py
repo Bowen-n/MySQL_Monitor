@@ -28,7 +28,7 @@ def main():
                 logPath = os.getcwd()
                 #print(logPath)
                 global log
-                logName = str(time.strftime('[%Y_%m_%d]')) + "_log.txt"
+                logName = str(time.strftime('%Y_%m_%d')) + "_log.txt"
                 log = logPath + "/" + logName
                 log = log.replace("\\", "/")  # for windows not support to use \ in log file path
                 data = execSQL(db, "set global general_log_file='" + log + "';")

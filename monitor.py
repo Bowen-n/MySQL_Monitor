@@ -21,7 +21,7 @@ def logMonitor(log):
 
     print(time.strftime('[%H:%M:%S]') + '为兼容MySQL 8.0.X 监控需使用root权限...')
     command = 'tail -f ' + log
-    print("{}".format(log))
+    print("command: {}".format(command))
     popen = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
     try:
         while True:

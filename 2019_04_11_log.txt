@@ -1,0 +1,24 @@
+D:\mysql\mysql-8.0.15-winx64\bin\mysqld, Version: 8.0.15 (MySQL Community Server - GPL). started with:
+TCP Port: 3306, Named Pipe: MySQL
+Time                 Id Command    Argument
+2019-04-11T13:22:20.557007Z	   51 Query	show variables like '%general_log%'
+2019-04-11T13:22:20.560551Z	   51 Query	SHOW WARNINGS
+2019-04-11T13:22:20.561898Z	   51 Query	show variables like 'general_log_file'
+2019-04-11T13:22:20.565707Z	   51 Query	SHOW WARNINGS
+2019-04-11T13:24:48.027924Z	   27 Query	show variables like '%general_log%'
+2019-04-11T13:27:32.823914Z	   52 Connect	root@localhost on sql_project using TCP/IP
+2019-04-11T13:27:32.824269Z	   52 Query	SET AUTOCOMMIT = 0
+2019-04-11T13:27:32.824814Z	   52 Query	SELECT VERSION()
+2019-04-11T13:27:33.826827Z	   52 Query	show variables like '%general_log%'
+2019-04-11T13:27:33.830495Z	   52 Query	SHOW WARNINGS
+2019-04-11T13:27:33.832457Z	   52 Query	show variables like 'general_log_file'
+2019-04-11T13:27:33.835940Z	   52 Query	SHOW WARNINGS
+2019-04-11T13:27:33.836368Z	   52 Quit	
+2019-04-11T13:28:25.192278Z	   53 Connect	root@localhost on sql_project using TCP/IP
+2019-04-11T13:28:25.192700Z	   53 Query	SET AUTOCOMMIT = 0
+2019-04-11T13:28:25.193408Z	   53 Query	SELECT VERSION()
+2019-04-11T13:28:26.202859Z	   53 Query	show variables like '%general_log%'
+2019-04-11T13:28:26.206418Z	   53 Query	SHOW WARNINGS
+2019-04-11T13:28:26.208469Z	   53 Query	show variables like 'general_log_file'
+2019-04-11T13:28:26.211926Z	   53 Query	SHOW WARNINGS
+2019-04-11T13:28:26.212309Z	   53 Quit	
