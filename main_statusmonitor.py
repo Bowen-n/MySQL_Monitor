@@ -16,7 +16,7 @@ def main():
     # global db
     db = getConfig()
 
-    data = execSQL(db, "SELECT VERSION()")
+    data = execSQL(db, "SELECT VERSION()") 
     print(time.strftime('[%H:%M:%S]') + "The version of database: %s " % data)
     time.sleep(1)
     
@@ -33,7 +33,6 @@ def main():
         st_m.show_all_connections()
         time.sleep(1)
         os.system('cls')
-
 
 
 if __name__ == '__main__':
