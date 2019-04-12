@@ -9,7 +9,7 @@ This is my project for *IS214:Database Theory* in SJTU. I develop a **log monito
 
 
 ## How to Use
-1. Open file *config.ini* . Usually you only need to change **passward** and **db_name** to your own in this file.
+1. Change file *config.ini* . Usually you only need to change **passward** and **db_name** to your own in this file.
 
 2. Run *main_logmonitor.py* to start **Log Monitor**. It can monitor the commands used by all users of the database in real time.
 
