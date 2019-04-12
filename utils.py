@@ -21,15 +21,15 @@ def getConfig():
         password = conf.get("dbconf", "password")
         db_name = conf.get("dbconf", "db_name")
         charset = conf.get("dbconf", "charset")
-        print(time.strftime('[%H:%M:%S]') + "配置解析成功...")
+        print(time.strftime('[%H:%M:%S]') + "Configuration succeed.")
     except:
-        print(time.strftime('[%H:%M:%S]') + "配置解析失败 请检查格式是否正确...")
+        print(time.strftime('[%H:%M:%S]') + "Configuration failed.")
 
     try:
         # global db
         db = pymysql.connect(host,user,password,db_name,port=port,charset=charset)
-        print(time.strftime('[%H:%M:%S]') + '数据库连接成功...')
+        print(time.strftime('[%H:%M:%S]') + 'Database connection succeed.')
         return db
 
     except:
-        print(time.strftime('[%H:%M:%S]') + '数据库连接失败...')
+        print(time.strftime('[%H:%M:%S]') + 'Database connection failed')

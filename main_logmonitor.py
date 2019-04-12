@@ -16,13 +16,13 @@ def main():
     # global db
     db = getConfig()
     data = execSQL(db, "SELECT VERSION()")
-    print(time.strftime('[%H:%M:%S]') + "当前数据库版本为: %s " % data)
+    print(time.strftime('[%H:%M:%S]') + "The version of database: %s " % data)
     time.sleep(1)
     data = execSQL(db, "show variables like '%general_log%';")[1]
-    print(time.strftime('[%H:%M:%S]') + '日志状态为:' + data)
+    print(time.strftime('[%H:%M:%S]') + 'The status of log:' + data)
     if data == "OFF":
         try:
-            print(time.strftime('[%H:%M:%S]') + '正在尝试开启日志模式...')
+            print(time.strftime('[%H:%M:%S]') + 'Starting log mode...')
             time.sleep(1)
             try:
                 # logPath = r'D:\\github\\MySQL_Monitor\\'
@@ -39,16 +39,15 @@ def main():
             data = execSQL(db, "set global general_log=on;")
             data = execSQL(db, "show variables like '%general_log%';")[1]
             if data == "ON":
-                print(time.strftime('[%H:%M:%S]') + '日志模式已开启...')
-                print(time.strftime('[%H:%M:%S]') + '日志监听中...')
+                print(time.strftime('[%H:%M:%S]') + 'Log is started.')
+                print(time.strftime('[%H:%M:%S]') + 'Log monitor running...')
                 log = str(execSQL(db, "show variables like 'general_log_file';")[-1])
                 logMonitor(log, db)
         except:
-            print(time.strftime('[%H:%M:%S]') + '日志模式开启失败...')
-            print(time.strftime('[%H:%M:%S]' + '未知错误 请联系https://github.com/TheKingOfDuck/MySQLMonitor/issues反馈问题...:'))
+            print(time.strftime('[%H:%M:%S]') + 'Log starting failed.')
             exit()
     else:
-        print(time.strftime('[%H:%M:%S]') + '日志监听中...')
+        print(time.strftime('[%H:%M:%S]') + 'Log monitor running...')
     log = str(execSQL(db, "show variables like 'general_log_file';")[-1])
     db.close()
     logMonitor(log, db)

@@ -1,0 +1,2326 @@
+D:\mysql\mysql-8.0.15-winx64\bin\mysqld, Version: 8.0.15 (MySQL Community Server - GPL). started with:
+TCP Port: 3306, Named Pipe: MySQL
+Time                 Id Command    Argument
+2019-04-12T01:33:21.066488Z	   31 Query	show variables like '%general_log%'
+2019-04-12T01:33:21.075801Z	   31 Query	SHOW WARNINGS
+2019-04-12T01:33:21.080546Z	   31 Query	show variables like 'general_log_file'
+2019-04-12T01:33:21.093658Z	   31 Query	SHOW WARNINGS
+2019-04-12T01:33:44.257511Z	   14 Query	show databases
+2019-04-12T01:33:50.231111Z	   14 Query	SELECT DATABASE()
+2019-04-12T01:33:50.231464Z	   14 Init DB	dianpingshop
+2019-04-12T01:34:07.928754Z	   32 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T01:34:07.929474Z	   32 Query	SET AUTOCOMMIT = 0
+2019-04-12T01:34:07.932129Z	   32 Query	SELECT VERSION()
+2019-04-12T01:34:08.938170Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:08.946231Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:08.967461Z	   32 Query	show processlist
+2019-04-12T01:34:10.045954Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:10.061705Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:10.066989Z	   32 Query	show processlist
+2019-04-12T01:34:11.123576Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:11.129674Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:11.135072Z	   32 Query	show processlist
+2019-04-12T01:34:12.189478Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:12.195521Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:12.200737Z	   32 Query	show processlist
+2019-04-12T01:34:13.263922Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:13.268918Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:13.274286Z	   32 Query	show processlist
+2019-04-12T01:34:14.310540Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:14.313813Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:14.315895Z	   32 Query	show processlist
+2019-04-12T01:34:15.374960Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:15.380383Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:15.386829Z	   32 Query	show processlist
+2019-04-12T01:34:16.459997Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:16.464164Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:16.470869Z	   32 Query	show processlist
+2019-04-12T01:34:17.501432Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:17.505630Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:17.509191Z	   32 Query	show processlist
+2019-04-12T01:34:18.567020Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:18.572786Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:18.580248Z	   32 Query	show processlist
+2019-04-12T01:34:19.649262Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:19.655413Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:19.662840Z	   32 Query	show processlist
+2019-04-12T01:34:20.721563Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:20.728817Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:20.736455Z	   32 Query	show processlist
+2019-04-12T01:34:21.789049Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:21.795010Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:21.800860Z	   32 Query	show processlist
+2019-04-12T01:34:22.858133Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:22.863316Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:22.871994Z	   32 Query	show processlist
+2019-04-12T01:34:23.903757Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:23.906233Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:23.908918Z	   32 Query	show processlist
+2019-04-12T01:34:24.984817Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:25.001460Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:25.007953Z	   32 Query	show processlist
+2019-04-12T01:34:26.087013Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:26.092919Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:26.099771Z	   32 Query	show processlist
+2019-04-12T01:34:27.156572Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:27.162488Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:27.167887Z	   32 Query	show processlist
+2019-04-12T01:34:28.237429Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:28.253430Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:28.270477Z	   32 Query	show processlist
+2019-04-12T01:34:29.329272Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:29.334677Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:29.339573Z	   32 Query	show processlist
+2019-04-12T01:34:30.401865Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:30.407458Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:30.412497Z	   32 Query	show processlist
+2019-04-12T01:34:31.485767Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:31.501649Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:31.520586Z	   32 Query	show processlist
+2019-04-12T01:34:32.593060Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:32.600797Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:32.607020Z	   32 Query	show processlist
+2019-04-12T01:34:33.665900Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:33.672735Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:33.677598Z	   32 Query	show processlist
+2019-04-12T01:34:34.750541Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:34.758809Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:34.763922Z	   32 Query	show processlist
+2019-04-12T01:34:35.813466Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:35.816459Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:35.821139Z	   32 Query	show processlist
+2019-04-12T01:34:36.878117Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:36.886683Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:36.891885Z	   32 Query	show processlist
+2019-04-12T01:34:46.438894Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:46.446543Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:46.452781Z	   32 Query	show processlist
+2019-04-12T01:34:51.257248Z	   32 Query	show global status like 'open%tables%'
+2019-04-12T01:34:51.264238Z	   32 Query	show global status like 'Thread%'
+2019-04-12T01:34:51.269957Z	   32 Query	show processlist
+2019-04-12T01:38:37.313079Z	   33 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T01:38:37.313442Z	   33 Query	SET AUTOCOMMIT = 0
+2019-04-12T01:38:37.313923Z	   33 Query	SELECT VERSION()
+2019-04-12T01:38:38.318475Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:38.335255Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:38.349658Z	   33 Query	show processlist
+2019-04-12T01:38:39.425957Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:39.442846Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:39.450058Z	   33 Query	show processlist
+2019-04-12T01:38:40.505886Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:40.508545Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:40.511831Z	   33 Query	show processlist
+2019-04-12T01:38:41.575322Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:41.578606Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:41.582575Z	   33 Query	show processlist
+2019-04-12T01:38:44.495111Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:44.500547Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:44.507848Z	   33 Query	show processlist
+2019-04-12T01:38:45.565181Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:45.571286Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:45.576649Z	   33 Query	show processlist
+2019-04-12T01:38:46.633337Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:46.638465Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:46.643669Z	   33 Query	show processlist
+2019-04-12T01:38:47.702260Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:47.708201Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:47.714772Z	   33 Query	show processlist
+2019-04-12T01:38:48.770219Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:48.776549Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:48.783175Z	   33 Query	show processlist
+2019-04-12T01:38:49.839200Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:49.844965Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:49.851647Z	   33 Query	show processlist
+2019-04-12T01:38:50.899251Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:50.906643Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:50.915789Z	   33 Query	show processlist
+2019-04-12T01:38:51.982020Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:51.985960Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:51.990279Z	   33 Query	show processlist
+2019-04-12T01:38:54.675311Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:54.683766Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:54.689122Z	   33 Query	show processlist
+2019-04-12T01:38:55.744560Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:55.748201Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:55.752075Z	   33 Query	show processlist
+2019-04-12T01:38:56.805108Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:56.810495Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:56.815948Z	   33 Query	show processlist
+2019-04-12T01:38:57.870035Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:38:57.876389Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:38:57.881774Z	   33 Query	show processlist
+2019-04-12T01:39:00.104525Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:00.110326Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:00.115639Z	   33 Query	show processlist
+2019-04-12T01:39:01.140231Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:01.142224Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:01.144288Z	   33 Query	show processlist
+2019-04-12T01:39:02.205364Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:02.211144Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:02.220605Z	   33 Query	show processlist
+2019-04-12T01:39:03.278386Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:03.284397Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:03.290390Z	   33 Query	show processlist
+2019-04-12T01:39:04.348388Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:04.355499Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:04.360805Z	   33 Query	show processlist
+2019-04-12T01:39:05.418192Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:05.424306Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:05.430769Z	   33 Query	show processlist
+2019-04-12T01:39:06.490050Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:06.495892Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:06.502538Z	   33 Query	show processlist
+2019-04-12T01:39:07.569621Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:07.575075Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:07.580496Z	   33 Query	show processlist
+2019-04-12T01:39:08.635457Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:08.641840Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:08.647761Z	   33 Query	show processlist
+2019-04-12T01:39:09.704357Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:09.709573Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:09.716295Z	   33 Query	show processlist
+2019-04-12T01:39:10.769257Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:10.774036Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:10.780773Z	   33 Query	show processlist
+2019-04-12T01:39:11.847100Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:11.854160Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:11.862906Z	   33 Query	show processlist
+2019-04-12T01:39:12.921047Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:12.928529Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:12.934843Z	   33 Query	show processlist
+2019-04-12T01:39:13.992101Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:13.998192Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:14.003420Z	   33 Query	show processlist
+2019-04-12T01:39:15.062267Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:15.070071Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:15.075667Z	   33 Query	show processlist
+2019-04-12T01:39:16.140106Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:16.147433Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:16.154888Z	   33 Query	show processlist
+2019-04-12T01:39:17.214874Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:17.223840Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:17.229409Z	   33 Query	show processlist
+2019-04-12T01:39:17.870032Z	   14 Query	show databases
+2019-04-12T01:39:18.285420Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:18.293804Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:18.299109Z	   33 Query	show processlist
+2019-04-12T01:39:19.365619Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:19.374402Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:19.379551Z	   33 Query	show processlist
+2019-04-12T01:39:20.439556Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:20.447675Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:20.453579Z	   33 Query	show processlist
+2019-04-12T01:39:21.510077Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:21.518064Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:21.523369Z	   33 Query	show processlist
+2019-04-12T01:39:22.527931Z	   14 Query	SELECT DATABASE()
+2019-04-12T01:39:22.528417Z	   14 Init DB	sys
+2019-04-12T01:39:22.558176Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:22.560223Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:22.562349Z	   33 Query	show processlist
+2019-04-12T01:39:23.625650Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:23.627783Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:23.633319Z	   33 Query	show processlist
+2019-04-12T01:39:24.689140Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:24.695339Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:24.701445Z	   33 Query	show processlist
+2019-04-12T01:39:25.766065Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:25.771510Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:25.779221Z	   33 Query	show processlist
+2019-04-12T01:39:26.837235Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:26.842922Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:26.849035Z	   33 Query	show processlist
+2019-04-12T01:39:27.919075Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:27.924348Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:27.933152Z	   33 Query	show processlist
+2019-04-12T01:39:28.999817Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:29.006310Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:29.013180Z	   33 Query	show processlist
+2019-04-12T01:39:30.070214Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:30.076077Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:30.081337Z	   33 Query	show processlist
+2019-04-12T01:39:31.149844Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:31.155188Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:31.163192Z	   33 Query	show processlist
+2019-04-12T01:39:32.229975Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:32.235258Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:32.243180Z	   33 Query	show processlist
+2019-04-12T01:39:33.305147Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:33.310814Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:33.318295Z	   33 Query	show processlist
+2019-04-12T01:39:34.376809Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:34.382280Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:34.387947Z	   33 Query	show processlist
+2019-04-12T01:39:35.445067Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:35.450197Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:35.455690Z	   33 Query	show processlist
+2019-04-12T01:39:36.516402Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:36.523729Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:36.529074Z	   33 Query	show processlist
+2019-04-12T01:39:37.590418Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:37.595973Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:37.602990Z	   33 Query	show processlist
+2019-04-12T01:39:38.640488Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:38.643813Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:38.648618Z	   33 Query	show processlist
+2019-04-12T01:39:39.704129Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:39.709776Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:39.718767Z	   33 Query	show processlist
+2019-04-12T01:39:40.790478Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:40.794352Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:40.799374Z	   33 Query	show processlist
+2019-04-12T01:39:41.864825Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:41.870777Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:41.879370Z	   33 Query	show processlist
+2019-04-12T01:39:42.942266Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:42.948916Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:42.954192Z	   33 Query	show processlist
+2019-04-12T01:39:44.008650Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:44.015412Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:44.020347Z	   33 Query	show processlist
+2019-04-12T01:39:45.088543Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:45.098311Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:45.104567Z	   33 Query	show processlist
+2019-04-12T01:39:46.165461Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:46.173092Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:46.179982Z	   33 Query	show processlist
+2019-04-12T01:39:47.242499Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:47.250242Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:47.256779Z	   33 Query	show processlist
+2019-04-12T01:39:48.315190Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:48.322850Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:48.329705Z	   33 Query	show processlist
+2019-04-12T01:39:49.383690Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:49.393919Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:49.399735Z	   33 Query	show processlist
+2019-04-12T01:39:50.452640Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:50.461246Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:50.466248Z	   33 Query	show processlist
+2019-04-12T01:39:51.527888Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:51.535651Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:51.542059Z	   33 Query	show processlist
+2019-04-12T01:39:52.600848Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:52.608187Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:52.613449Z	   33 Query	show processlist
+2019-04-12T01:39:53.660779Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:53.669064Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:53.674451Z	   33 Query	show processlist
+2019-04-12T01:39:54.733014Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:54.739224Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:54.745423Z	   33 Query	show processlist
+2019-04-12T01:39:55.806211Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:55.810596Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:55.814761Z	   33 Query	show processlist
+2019-04-12T01:39:56.858938Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:56.863402Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:56.868430Z	   33 Query	show processlist
+2019-04-12T01:39:57.930495Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:57.936727Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:57.941934Z	   33 Query	show processlist
+2019-04-12T01:39:59.024570Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:39:59.027891Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:39:59.038136Z	   33 Query	show processlist
+2019-04-12T01:40:00.096020Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:00.102425Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:00.107757Z	   33 Query	show processlist
+2019-04-12T01:40:01.164640Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:01.169750Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:01.175116Z	   33 Query	show processlist
+2019-04-12T01:40:02.231500Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:02.236058Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:02.241425Z	   33 Query	show processlist
+2019-04-12T01:40:03.296811Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:03.302662Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:03.307842Z	   33 Query	show processlist
+2019-04-12T01:40:04.374228Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:04.380350Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:04.386956Z	   33 Query	show processlist
+2019-04-12T01:40:05.446064Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:05.452101Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:05.457506Z	   33 Query	show processlist
+2019-04-12T01:40:06.527581Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:06.534603Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:06.547614Z	   33 Query	show processlist
+2019-04-12T01:40:07.615825Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:07.623211Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:07.628850Z	   33 Query	show processlist
+2019-04-12T01:40:08.694504Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:08.701652Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:08.708126Z	   33 Query	show processlist
+2019-04-12T01:40:09.778503Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:09.785025Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:09.793445Z	   33 Query	show processlist
+2019-04-12T01:40:10.856359Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:10.863019Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:10.868821Z	   33 Query	show processlist
+2019-04-12T01:40:11.932937Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:11.940179Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:11.945506Z	   33 Query	show processlist
+2019-04-12T01:40:13.016204Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:13.027816Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:13.032997Z	   33 Query	show processlist
+2019-04-12T01:40:14.096947Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:14.106976Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:14.112609Z	   33 Query	show processlist
+2019-04-12T01:40:15.145661Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:15.147824Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:15.150541Z	   33 Query	show processlist
+2019-04-12T01:40:16.212255Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:16.220799Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:16.225952Z	   33 Query	show processlist
+2019-04-12T01:40:17.286410Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:17.294477Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:17.300325Z	   33 Query	show processlist
+2019-04-12T01:40:18.340892Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:18.343997Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:18.349095Z	   33 Query	show processlist
+2019-04-12T01:40:19.386112Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:19.389559Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:19.394314Z	   33 Query	show processlist
+2019-04-12T01:40:20.448326Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:20.454343Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:20.459320Z	   33 Query	show processlist
+2019-04-12T01:40:21.523941Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:21.531194Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:21.536238Z	   33 Query	show processlist
+2019-04-12T01:40:22.600815Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:22.609510Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:22.616512Z	   33 Query	show processlist
+2019-04-12T01:40:23.672329Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:23.677838Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:23.684268Z	   33 Query	show processlist
+2019-04-12T01:40:24.740623Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:24.746079Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:24.751445Z	   33 Query	show processlist
+2019-04-12T01:40:25.791684Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:25.794640Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:25.798351Z	   33 Query	show processlist
+2019-04-12T01:40:26.859608Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:26.865697Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:26.874991Z	   33 Query	show processlist
+2019-04-12T01:40:27.936967Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:27.942986Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:27.949079Z	   33 Query	show processlist
+2019-04-12T01:40:29.008516Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:29.017582Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:29.023345Z	   33 Query	show processlist
+2019-04-12T01:40:30.060504Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:30.063665Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:30.068871Z	   33 Query	show processlist
+2019-04-12T01:40:31.107392Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:31.110842Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:31.116089Z	   33 Query	show processlist
+2019-04-12T01:40:32.199881Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:32.206668Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:32.211371Z	   33 Query	show processlist
+2019-04-12T01:40:33.234344Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:33.236236Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:33.238558Z	   33 Query	show processlist
+2019-04-12T01:40:34.300596Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:34.307923Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:34.313518Z	   33 Query	show processlist
+2019-04-12T01:40:35.373317Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:35.378788Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:35.388315Z	   33 Query	show processlist
+2019-04-12T01:40:36.443195Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:36.448994Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:36.454215Z	   33 Query	show processlist
+2019-04-12T01:40:37.484570Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:37.486076Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:37.487524Z	   33 Query	show processlist
+2019-04-12T01:40:38.539544Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:38.546642Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:38.551724Z	   33 Query	show processlist
+2019-04-12T01:40:39.616708Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:39.622622Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:39.628166Z	   33 Query	show processlist
+2019-04-12T01:40:40.683440Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:40.689744Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:40.697978Z	   33 Query	show processlist
+2019-04-12T01:40:41.752914Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:41.759277Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:41.764542Z	   33 Query	show processlist
+2019-04-12T01:40:42.819309Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:42.824591Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:42.829796Z	   33 Query	show processlist
+2019-04-12T01:40:43.882137Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:43.887204Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:43.893049Z	   33 Query	show processlist
+2019-04-12T01:40:44.950925Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:44.957549Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:44.963787Z	   33 Query	show processlist
+2019-04-12T01:40:46.018456Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:46.024915Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:46.032992Z	   33 Query	show processlist
+2019-04-12T01:40:47.086821Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:47.092593Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:47.097809Z	   33 Query	show processlist
+2019-04-12T01:40:48.124236Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:48.126089Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:48.128487Z	   33 Query	show processlist
+2019-04-12T01:40:49.148393Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:49.150438Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:49.152766Z	   33 Query	show processlist
+2019-04-12T01:40:50.201278Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:50.206236Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:50.211061Z	   33 Query	show processlist
+2019-04-12T01:40:51.254139Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:51.257464Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:51.261820Z	   33 Query	show processlist
+2019-04-12T01:40:52.311517Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:52.316752Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:52.321764Z	   33 Query	show processlist
+2019-04-12T01:40:53.389080Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:53.393036Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:53.396327Z	   33 Query	show processlist
+2019-04-12T01:40:54.455606Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:54.461934Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:54.469544Z	   33 Query	show processlist
+2019-04-12T01:40:55.519710Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:55.525247Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:55.531695Z	   33 Query	show processlist
+2019-04-12T01:40:56.583124Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:56.589343Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:56.594553Z	   33 Query	show processlist
+2019-04-12T01:40:57.652544Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:57.658351Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:57.663846Z	   33 Query	show processlist
+2019-04-12T01:40:58.717494Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:58.721817Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:58.727811Z	   33 Query	show processlist
+2019-04-12T01:40:59.780162Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:40:59.786138Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:40:59.793690Z	   33 Query	show processlist
+2019-04-12T01:41:00.872223Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:00.876512Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:00.880450Z	   33 Query	show processlist
+2019-04-12T01:41:01.937177Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:01.940224Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:01.943367Z	   33 Query	show processlist
+2019-04-12T01:41:02.962586Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:02.964409Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:02.966237Z	   33 Query	show processlist
+2019-04-12T01:41:03.987299Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:03.989162Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:03.990797Z	   33 Query	show processlist
+2019-04-12T01:41:05.012153Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:05.013978Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:05.015451Z	   33 Query	show processlist
+2019-04-12T01:41:06.058452Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:06.062063Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:06.066968Z	   33 Query	show processlist
+2019-04-12T01:41:07.118454Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:07.123632Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:07.128225Z	   33 Query	show processlist
+2019-04-12T01:41:08.178791Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:08.185122Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:08.189531Z	   33 Query	show processlist
+2019-04-12T01:41:09.249392Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:09.254234Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:09.259412Z	   33 Query	show processlist
+2019-04-12T01:41:10.312654Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:10.317632Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:10.322668Z	   33 Query	show processlist
+2019-04-12T01:41:11.386123Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:11.391653Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:11.401369Z	   33 Query	show processlist
+2019-04-12T01:41:12.454111Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:12.459862Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:12.465552Z	   33 Query	show processlist
+2019-04-12T01:41:13.490085Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:13.492364Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:13.494879Z	   33 Query	show processlist
+2019-04-12T01:41:14.557559Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:14.565039Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:14.570734Z	   33 Query	show processlist
+2019-04-12T01:41:15.628017Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:15.633596Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:15.639601Z	   33 Query	show processlist
+2019-04-12T01:41:16.698992Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:16.704857Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:16.711133Z	   33 Query	show processlist
+2019-04-12T01:41:17.767959Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:17.774652Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:17.782287Z	   33 Query	show processlist
+2019-04-12T01:41:18.835100Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:18.842239Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:18.847284Z	   33 Query	show processlist
+2019-04-12T01:41:19.906005Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:19.911333Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:19.916650Z	   33 Query	show processlist
+2019-04-12T01:41:20.973066Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:20.978510Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:20.984196Z	   33 Query	show processlist
+2019-04-12T01:41:22.040851Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:22.046387Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:22.051582Z	   33 Query	show processlist
+2019-04-12T01:41:23.108693Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:23.114150Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:23.120417Z	   33 Query	show processlist
+2019-04-12T01:41:24.173612Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:24.179779Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:24.186410Z	   33 Query	show processlist
+2019-04-12T01:41:25.245271Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:25.250614Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:25.255885Z	   33 Query	show processlist
+2019-04-12T01:41:26.322133Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:26.327862Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:26.336442Z	   33 Query	show processlist
+2019-04-12T01:41:27.388952Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:27.393145Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:27.400461Z	   33 Query	show processlist
+2019-04-12T01:41:28.453081Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:28.459770Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:28.465611Z	   33 Query	show processlist
+2019-04-12T01:41:29.520181Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:29.528368Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:29.533747Z	   33 Query	show processlist
+2019-04-12T01:41:30.577503Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:30.584353Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:30.589106Z	   33 Query	show processlist
+2019-04-12T01:41:31.643535Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:31.651741Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:31.657480Z	   33 Query	show processlist
+2019-04-12T01:41:32.711125Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:32.718958Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:32.724241Z	   33 Query	show processlist
+2019-04-12T01:41:33.781364Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:33.787148Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:33.793015Z	   33 Query	show processlist
+2019-04-12T01:41:34.848184Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:34.853897Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:34.861128Z	   33 Query	show processlist
+2019-04-12T01:41:35.915163Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:35.920261Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:35.926975Z	   33 Query	show processlist
+2019-04-12T01:41:36.980137Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:36.986444Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:36.993233Z	   33 Query	show processlist
+2019-04-12T01:41:38.059364Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:38.066006Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:38.074665Z	   33 Query	show processlist
+2019-04-12T01:41:39.128985Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:39.135496Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:39.141221Z	   33 Query	show processlist
+2019-04-12T01:41:40.196283Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:40.203018Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:40.208161Z	   33 Query	show processlist
+2019-04-12T01:41:41.263653Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:41.268706Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:41.274440Z	   33 Query	show processlist
+2019-04-12T01:41:42.327860Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:42.335900Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:42.341666Z	   33 Query	show processlist
+2019-04-12T01:41:43.398421Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:43.401433Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:43.404608Z	   33 Query	show processlist
+2019-04-12T01:41:44.455273Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:44.460806Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:44.466901Z	   33 Query	show processlist
+2019-04-12T01:41:45.523544Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:45.527791Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:45.534349Z	   33 Query	show processlist
+2019-04-12T01:41:46.587717Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:46.592761Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:46.598346Z	   33 Query	show processlist
+2019-04-12T01:41:47.660013Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:47.666648Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:47.671899Z	   33 Query	show processlist
+2019-04-12T01:41:48.726306Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:48.733535Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:48.742156Z	   33 Query	show processlist
+2019-04-12T01:41:49.801481Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:49.808964Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:49.818002Z	   33 Query	show processlist
+2019-04-12T01:41:50.872443Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:50.878636Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:50.884164Z	   33 Query	show processlist
+2019-04-12T01:41:51.939247Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:51.945685Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:51.950895Z	   33 Query	show processlist
+2019-04-12T01:41:53.007535Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:53.012970Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:53.018523Z	   33 Query	show processlist
+2019-04-12T01:41:54.072726Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:54.078584Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:54.083736Z	   33 Query	show processlist
+2019-04-12T01:41:55.144121Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:55.149845Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:55.156083Z	   33 Query	show processlist
+2019-04-12T01:41:56.213447Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:56.218529Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:56.224135Z	   33 Query	show processlist
+2019-04-12T01:41:57.282277Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:57.288127Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:57.293538Z	   33 Query	show processlist
+2019-04-12T01:41:58.345133Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:58.350793Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:58.356438Z	   33 Query	show processlist
+2019-04-12T01:41:59.412663Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:41:59.419088Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:41:59.424192Z	   33 Query	show processlist
+2019-04-12T01:42:00.480013Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:00.485720Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:00.490788Z	   33 Query	show processlist
+2019-04-12T01:42:01.553022Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:01.558987Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:01.564302Z	   33 Query	show processlist
+2019-04-12T01:42:02.619166Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:02.622986Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:02.626430Z	   33 Query	show processlist
+2019-04-12T01:42:03.678399Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:03.684293Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:03.690441Z	   33 Query	show processlist
+2019-04-12T01:42:04.748425Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:04.753419Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:04.759099Z	   33 Query	show processlist
+2019-04-12T01:42:05.787512Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:05.789762Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:05.792302Z	   33 Query	show processlist
+2019-04-12T01:42:06.843840Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:06.849949Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:06.854872Z	   33 Query	show processlist
+2019-04-12T01:42:07.916786Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:07.923014Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:07.928391Z	   33 Query	show processlist
+2019-04-12T01:42:08.990364Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:08.996735Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:09.001999Z	   33 Query	show processlist
+2019-04-12T01:42:10.063043Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:10.069891Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:10.076031Z	   33 Query	show processlist
+2019-04-12T01:42:11.129804Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:11.135711Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:11.141942Z	   33 Query	show processlist
+2019-04-12T01:42:12.195882Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:12.201463Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:12.206933Z	   33 Query	show processlist
+2019-04-12T01:42:13.257684Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:13.262570Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:13.267765Z	   33 Query	show processlist
+2019-04-12T01:42:14.325827Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:14.332458Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:14.339673Z	   33 Query	show processlist
+2019-04-12T01:42:15.400400Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:15.406905Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:15.411710Z	   33 Query	show processlist
+2019-04-12T01:42:16.463650Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:16.470615Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:16.475866Z	   33 Query	show processlist
+2019-04-12T01:42:17.535091Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:17.540504Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:17.544990Z	   33 Query	show processlist
+2019-04-12T01:42:18.596014Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:18.602826Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:18.608553Z	   33 Query	show processlist
+2019-04-12T01:42:19.663525Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:19.670218Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:19.675270Z	   33 Query	show processlist
+2019-04-12T01:42:20.728597Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:20.734454Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:20.739687Z	   33 Query	show processlist
+2019-04-12T01:42:21.794421Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:21.800320Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:21.805469Z	   33 Query	show processlist
+2019-04-12T01:42:22.862584Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:22.868036Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:22.873288Z	   33 Query	show processlist
+2019-04-12T01:42:23.926407Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:23.932583Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:23.938036Z	   33 Query	show processlist
+2019-04-12T01:42:24.991571Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:24.997119Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:25.002829Z	   33 Query	show processlist
+2019-04-12T01:42:26.053141Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:26.058455Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:26.064781Z	   33 Query	show processlist
+2019-04-12T01:42:27.132375Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:27.137791Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:27.146542Z	   33 Query	show processlist
+2019-04-12T01:42:28.201861Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:28.210116Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:28.218209Z	   33 Query	show processlist
+2019-04-12T01:42:29.270287Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:29.276933Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:29.281965Z	   33 Query	show processlist
+2019-04-12T01:42:30.343277Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:30.347691Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:30.353907Z	   33 Query	show processlist
+2019-04-12T01:42:31.415051Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:31.420122Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:31.425772Z	   33 Query	show processlist
+2019-04-12T01:42:32.478047Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:32.483429Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:32.488979Z	   33 Query	show processlist
+2019-04-12T01:42:33.530439Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:33.535664Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:33.542057Z	   33 Query	show processlist
+2019-04-12T01:42:34.595497Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:34.599694Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:34.605448Z	   33 Query	show processlist
+2019-04-12T01:42:35.665417Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:35.671659Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:35.677094Z	   33 Query	show processlist
+2019-04-12T01:42:36.719099Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:36.722680Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:36.726533Z	   33 Query	show processlist
+2019-04-12T01:42:37.762443Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:37.765954Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:37.769681Z	   33 Query	show processlist
+2019-04-12T01:42:38.824597Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:38.829534Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:38.834919Z	   33 Query	show processlist
+2019-04-12T01:42:39.891509Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:39.896890Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:39.902385Z	   33 Query	show processlist
+2019-04-12T01:42:40.955498Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:40.960840Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:40.967186Z	   33 Query	show processlist
+2019-04-12T01:42:42.022305Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:42.029944Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:42.034510Z	   33 Query	show processlist
+2019-04-12T01:42:43.088731Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:43.095826Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:43.101990Z	   33 Query	show processlist
+2019-04-12T01:42:44.155783Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:44.161657Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:44.167576Z	   33 Query	show processlist
+2019-04-12T01:42:45.221055Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:45.227163Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:45.232705Z	   33 Query	show processlist
+2019-04-12T01:42:46.285443Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:46.292220Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:46.297590Z	   33 Query	show processlist
+2019-04-12T01:42:47.356260Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:47.361351Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:47.367348Z	   33 Query	show processlist
+2019-04-12T01:42:48.422166Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:48.428203Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:48.435326Z	   33 Query	show processlist
+2019-04-12T01:42:49.488824Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:49.494515Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:49.500514Z	   33 Query	show processlist
+2019-04-12T01:42:50.555694Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:50.560069Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:50.564738Z	   33 Query	show processlist
+2019-04-12T01:42:51.625870Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:51.632366Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:51.638339Z	   33 Query	show processlist
+2019-04-12T01:42:52.693738Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:52.700635Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:52.708542Z	   33 Query	show processlist
+2019-04-12T01:42:53.770844Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:53.776831Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:53.783594Z	   33 Query	show processlist
+2019-04-12T01:42:54.838024Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:54.846018Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:54.852712Z	   33 Query	show processlist
+2019-04-12T01:42:55.903097Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:55.910314Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:55.917362Z	   33 Query	show processlist
+2019-04-12T01:42:56.973408Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:56.983614Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:56.988719Z	   33 Query	show processlist
+2019-04-12T01:42:58.041611Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:58.050517Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:58.056388Z	   33 Query	show processlist
+2019-04-12T01:42:59.115234Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:42:59.120157Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:42:59.125882Z	   33 Query	show processlist
+2019-04-12T01:43:00.179776Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:00.185206Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:00.190338Z	   33 Query	show processlist
+2019-04-12T01:43:01.252590Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:01.258365Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:01.263959Z	   33 Query	show processlist
+2019-04-12T01:43:02.318097Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:02.323940Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:02.330233Z	   33 Query	show processlist
+2019-04-12T01:43:03.387290Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:03.390387Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:03.395224Z	   33 Query	show processlist
+2019-04-12T01:43:04.448138Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:04.453813Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:04.459479Z	   33 Query	show processlist
+2019-04-12T01:43:05.516739Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:05.522870Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:05.531337Z	   33 Query	show processlist
+2019-04-12T01:43:06.598188Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:06.605547Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:06.612760Z	   33 Query	show processlist
+2019-04-12T01:43:07.671476Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:07.676530Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:07.681585Z	   33 Query	show processlist
+2019-04-12T01:43:08.735993Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:08.741837Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:08.747298Z	   33 Query	show processlist
+2019-04-12T01:43:09.802573Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:09.807966Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:09.813527Z	   33 Query	show processlist
+2019-04-12T01:43:10.868441Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:10.872736Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:10.878035Z	   33 Query	show processlist
+2019-04-12T01:43:11.939020Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:11.944687Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:11.949392Z	   33 Query	show processlist
+2019-04-12T01:43:13.011022Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:13.016229Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:13.021212Z	   33 Query	show processlist
+2019-04-12T01:43:14.075423Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:14.083259Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:14.091130Z	   33 Query	show processlist
+2019-04-12T01:43:15.143456Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:15.149856Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:15.155749Z	   33 Query	show processlist
+2019-04-12T01:43:16.216761Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:16.222962Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:16.229248Z	   33 Query	show processlist
+2019-04-12T01:43:17.282985Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:17.288392Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:17.293575Z	   33 Query	show processlist
+2019-04-12T01:43:18.348285Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:18.353688Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:18.359727Z	   33 Query	show processlist
+2019-04-12T01:43:19.415913Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:19.421490Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:19.426142Z	   33 Query	show processlist
+2019-04-12T01:43:20.496982Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:20.502078Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:20.509785Z	   33 Query	show processlist
+2019-04-12T01:43:21.563119Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:21.567619Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:21.572958Z	   33 Query	show processlist
+2019-04-12T01:43:22.628028Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:22.634117Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:22.640370Z	   33 Query	show processlist
+2019-04-12T01:43:23.695161Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:23.700921Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:23.706500Z	   33 Query	show processlist
+2019-04-12T01:43:24.761497Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:24.767583Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:24.774024Z	   33 Query	show processlist
+2019-04-12T01:43:25.832368Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:25.839221Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:25.847112Z	   33 Query	show processlist
+2019-04-12T01:43:26.903411Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:26.908795Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:26.915508Z	   33 Query	show processlist
+2019-04-12T01:43:27.970496Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:27.976766Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:27.981864Z	   33 Query	show processlist
+2019-04-12T01:43:29.044340Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:29.049583Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:29.055879Z	   33 Query	show processlist
+2019-04-12T01:43:30.110455Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:30.116988Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:30.122034Z	   33 Query	show processlist
+2019-04-12T01:43:31.175402Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:31.180514Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:31.187157Z	   33 Query	show processlist
+2019-04-12T01:43:32.244304Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:32.251282Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:32.260010Z	   33 Query	show processlist
+2019-04-12T01:43:33.321461Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:33.325350Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:33.330199Z	   33 Query	show processlist
+2019-04-12T01:43:34.391343Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:34.396999Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:34.402150Z	   33 Query	show processlist
+2019-04-12T01:43:35.458771Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:35.464826Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:35.470441Z	   33 Query	show processlist
+2019-04-12T01:43:36.524827Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:36.530459Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:36.535377Z	   33 Query	show processlist
+2019-04-12T01:43:37.590879Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:37.595669Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:37.602208Z	   33 Query	show processlist
+2019-04-12T01:43:38.657039Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:38.662999Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:38.668830Z	   33 Query	show processlist
+2019-04-12T01:43:39.722209Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:39.728266Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:39.733626Z	   33 Query	show processlist
+2019-04-12T01:43:40.787837Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:40.794306Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:40.799448Z	   33 Query	show processlist
+2019-04-12T01:43:41.851765Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:41.858014Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:41.863103Z	   33 Query	show processlist
+2019-04-12T01:43:42.921460Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:42.926479Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:42.931636Z	   33 Query	show processlist
+2019-04-12T01:43:43.989099Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:43.994148Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:44.000133Z	   33 Query	show processlist
+2019-04-12T01:43:45.054380Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:45.059717Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:45.065049Z	   33 Query	show processlist
+2019-04-12T01:43:46.136139Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:46.141933Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:46.147071Z	   33 Query	show processlist
+2019-04-12T01:43:47.201197Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:47.206568Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:47.211705Z	   33 Query	show processlist
+2019-04-12T01:43:48.268720Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:48.273917Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:48.279239Z	   33 Query	show processlist
+2019-04-12T01:43:49.336387Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:49.341713Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:49.346922Z	   33 Query	show processlist
+2019-04-12T01:43:50.399565Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:50.405390Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:50.410526Z	   33 Query	show processlist
+2019-04-12T01:43:51.466056Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:51.471842Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:51.477853Z	   33 Query	show processlist
+2019-04-12T01:43:52.532093Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:52.537058Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:52.542830Z	   33 Query	show processlist
+2019-04-12T01:43:53.595211Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:53.600596Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:53.605097Z	   33 Query	show processlist
+2019-04-12T01:43:54.656882Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:54.662970Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:54.668239Z	   33 Query	show processlist
+2019-04-12T01:43:55.730770Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:55.736750Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:55.742510Z	   33 Query	show processlist
+2019-04-12T01:43:56.803717Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:56.810349Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:56.815608Z	   33 Query	show processlist
+2019-04-12T01:43:57.865608Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:57.870296Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:57.876005Z	   33 Query	show processlist
+2019-04-12T01:43:58.930507Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:43:58.937049Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:43:58.942235Z	   33 Query	show processlist
+2019-04-12T01:44:00.023865Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:00.028629Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:00.032807Z	   33 Query	show processlist
+2019-04-12T01:44:01.084227Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:01.091674Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:01.096608Z	   33 Query	show processlist
+2019-04-12T01:44:02.140020Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:02.143482Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:02.145286Z	   33 Query	show processlist
+2019-04-12T01:44:03.178862Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:03.181104Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:03.183875Z	   33 Query	show processlist
+2019-04-12T01:44:04.255254Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:04.259460Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:04.263343Z	   33 Query	show processlist
+2019-04-12T01:44:05.295426Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:05.298022Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:05.305197Z	   33 Query	show processlist
+2019-04-12T01:44:06.329229Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:06.331013Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:06.338393Z	   33 Query	show processlist
+2019-04-12T01:44:07.408027Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:07.411837Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:07.417820Z	   33 Query	show processlist
+2019-04-12T01:44:08.473239Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:08.481029Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:08.486289Z	   33 Query	show processlist
+2019-04-12T01:44:09.551870Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:09.559843Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:09.569736Z	   33 Query	show processlist
+2019-04-12T01:44:10.654169Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:10.674610Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:10.678083Z	   33 Query	show processlist
+2019-04-12T01:44:11.739845Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:11.741560Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:11.746608Z	   33 Query	show processlist
+2019-04-12T01:44:12.771482Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:12.773884Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:12.778136Z	   33 Query	show processlist
+2019-04-12T01:44:13.852977Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:13.859018Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:13.865566Z	   33 Query	show processlist
+2019-04-12T01:44:14.935243Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:14.941294Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:14.948026Z	   33 Query	show processlist
+2019-04-12T01:44:16.014575Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:16.021913Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:16.029866Z	   33 Query	show processlist
+2019-04-12T01:44:17.085793Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:17.093380Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:17.098334Z	   33 Query	show processlist
+2019-04-12T01:44:18.158518Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:18.164628Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:18.171428Z	   33 Query	show processlist
+2019-04-12T01:44:19.231202Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:19.239972Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:19.245798Z	   33 Query	show processlist
+2019-04-12T01:44:20.305855Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:20.312187Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:20.317512Z	   33 Query	show processlist
+2019-04-12T01:44:21.382108Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:21.387979Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:21.391495Z	   33 Query	show processlist
+2019-04-12T01:44:22.445968Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:22.455083Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:22.460164Z	   33 Query	show processlist
+2019-04-12T01:44:23.486093Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:23.488225Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:23.490154Z	   33 Query	show processlist
+2019-04-12T01:44:24.558569Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:24.564500Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:24.571372Z	   33 Query	show processlist
+2019-04-12T01:44:25.633862Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:25.641489Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:25.650251Z	   33 Query	show processlist
+2019-04-12T01:44:26.704399Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:26.712055Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:26.718829Z	   33 Query	show processlist
+2019-04-12T01:44:27.773650Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:27.782751Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:27.789300Z	   33 Query	show processlist
+2019-04-12T01:44:28.846508Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:28.853536Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:28.857576Z	   33 Query	show processlist
+2019-04-12T01:44:29.911576Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:29.920167Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:29.928015Z	   33 Query	show processlist
+2019-04-12T01:44:30.985025Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:30.987266Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:30.989709Z	   33 Query	show processlist
+2019-04-12T01:44:32.047762Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:32.055788Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:32.061873Z	   33 Query	show processlist
+2019-04-12T01:44:33.096054Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:33.104537Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:33.113468Z	   33 Query	show processlist
+2019-04-12T01:44:34.181007Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:34.188378Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:34.194541Z	   33 Query	show processlist
+2019-04-12T01:44:35.266704Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:35.276032Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:35.281205Z	   33 Query	show processlist
+2019-04-12T01:44:36.351592Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:36.359409Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:36.364635Z	   33 Query	show processlist
+2019-04-12T01:44:37.450590Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:37.459554Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:37.464190Z	   33 Query	show processlist
+2019-04-12T01:44:38.491566Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:38.494446Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:38.496870Z	   33 Query	show processlist
+2019-04-12T01:44:39.556916Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:39.560312Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:39.564905Z	   33 Query	show processlist
+2019-04-12T01:44:40.617915Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:40.626136Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:40.631336Z	   33 Query	show processlist
+2019-04-12T01:44:41.691212Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:41.699643Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:41.704874Z	   33 Query	show processlist
+2019-04-12T01:44:42.762915Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:42.770921Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:42.777222Z	   33 Query	show processlist
+2019-04-12T01:44:43.850632Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:43.857926Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:43.866387Z	   33 Query	show processlist
+2019-04-12T01:44:44.952961Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:44.956725Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:44.961083Z	   33 Query	show processlist
+2019-04-12T01:44:45.995032Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:45.997910Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:46.000002Z	   33 Query	show processlist
+2019-04-12T01:44:47.041803Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:47.044265Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:47.055008Z	   33 Query	show processlist
+2019-04-12T01:44:48.115520Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:48.122784Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:48.133413Z	   33 Query	show processlist
+2019-04-12T01:44:49.194399Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:49.197767Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:49.201908Z	   33 Query	show processlist
+2019-04-12T01:44:50.272057Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:50.278843Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:50.281757Z	   33 Query	show processlist
+2019-04-12T01:44:51.306968Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:51.308876Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:51.310900Z	   33 Query	show processlist
+2019-04-12T01:44:52.365866Z	   33 Query	show global status like 'open%tables%'
+2019-04-12T01:44:52.373321Z	   33 Query	show global status like 'Thread%'
+2019-04-12T01:44:52.378307Z	   33 Query	show processlist
+2019-04-12T01:44:58.920870Z	   34 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T01:44:58.921259Z	   34 Query	SET AUTOCOMMIT = 0
+2019-04-12T01:44:58.921646Z	   34 Query	SELECT VERSION()
+2019-04-12T01:44:59.925796Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:44:59.941478Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:44:59.970098Z	   34 Query	show processlist
+2019-04-12T01:45:01.051496Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:01.068069Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:01.073185Z	   34 Query	show processlist
+2019-04-12T01:45:02.147118Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:02.154778Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:02.162345Z	   34 Query	show processlist
+2019-04-12T01:45:03.221179Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:03.228089Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:03.234658Z	   34 Query	show processlist
+2019-04-12T01:45:04.292306Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:04.300123Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:04.305811Z	   34 Query	show processlist
+2019-04-12T01:45:05.363638Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:05.370503Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:05.375845Z	   34 Query	show processlist
+2019-04-12T01:45:06.434780Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:06.440906Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:06.448013Z	   34 Query	show processlist
+2019-04-12T01:45:07.506825Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:07.513197Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:07.518430Z	   34 Query	show processlist
+2019-04-12T01:45:08.578905Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:08.585338Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:08.590972Z	   34 Query	show processlist
+2019-04-12T01:45:09.652048Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:09.657894Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:09.666615Z	   34 Query	show processlist
+2019-04-12T01:45:10.723682Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:10.731105Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:10.736175Z	   34 Query	show processlist
+2019-04-12T01:45:11.793966Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:11.800466Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:11.806596Z	   34 Query	show processlist
+2019-04-12T01:45:13.469883Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:13.474480Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:13.479940Z	   34 Query	show processlist
+2019-04-12T01:45:14.516328Z	   34 Query	show global status like 'open%tables%'
+2019-04-12T01:45:14.520530Z	   34 Query	show global status like 'Thread%'
+2019-04-12T01:45:14.526222Z	   34 Query	show processlist
+2019-04-12T02:02:12.600899Z	   35 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:02:12.601282Z	   35 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:02:12.601917Z	   35 Query	SELECT VERSION()
+2019-04-12T02:02:13.602911Z	   35 Query	show variables like '%general_log%'
+2019-04-12T02:02:13.608513Z	   35 Query	SHOW WARNINGS
+2019-04-12T02:02:13.615411Z	   35 Query	show variables like 'general_log_file'
+2019-04-12T02:02:13.621117Z	   35 Query	SHOW WARNINGS
+2019-04-12T02:02:13.621781Z	   35 Quit	
+2019-04-12T02:03:38.488242Z	   36 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:03:38.488654Z	   36 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:03:38.489334Z	   36 Query	SELECT VERSION()
+2019-04-12T02:03:39.491728Z	   36 Query	show variables like '%general_log%'
+2019-04-12T02:03:39.504711Z	   36 Query	SHOW WARNINGS
+2019-04-12T02:03:39.512672Z	   36 Query	show variables like 'general_log_file'
+2019-04-12T02:03:39.523951Z	   36 Query	SHOW WARNINGS
+2019-04-12T02:03:39.525664Z	   36 Quit	
+2019-04-12T02:04:09.869149Z	   37 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:04:09.869654Z	   37 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:04:09.870681Z	   37 Query	SELECT VERSION()
+2019-04-12T02:04:10.871383Z	   37 Query	show variables like '%general_log%'
+2019-04-12T02:04:10.884585Z	   37 Query	SHOW WARNINGS
+2019-04-12T02:04:10.898705Z	   37 Query	show variables like 'general_log_file'
+2019-04-12T02:04:10.912119Z	   37 Query	SHOW WARNINGS
+2019-04-12T02:04:10.913102Z	   37 Quit	
+2019-04-12T02:04:33.657928Z	   38 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:04:33.658273Z	   38 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:04:33.658878Z	   38 Query	SELECT VERSION()
+2019-04-12T02:04:34.659908Z	   38 Query	show variables like '%general_log%'
+2019-04-12T02:04:34.669877Z	   38 Query	SHOW WARNINGS
+2019-04-12T02:04:34.675469Z	   38 Query	show variables like 'general_log_file'
+2019-04-12T02:04:34.685518Z	   38 Query	SHOW WARNINGS
+2019-04-12T02:04:34.686651Z	   38 Quit	
+2019-04-12T02:07:35.693467Z	   39 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:07:35.694369Z	   39 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:07:35.694860Z	   39 Query	SELECT VERSION()
+2019-04-12T02:07:36.696267Z	   39 Query	show variables like '%general_log%'
+2019-04-12T02:07:36.706208Z	   39 Query	SHOW WARNINGS
+2019-04-12T02:07:36.716808Z	   39 Query	show variables like 'general_log_file'
+2019-04-12T02:07:36.728205Z	   39 Query	SHOW WARNINGS
+2019-04-12T02:07:36.729791Z	   39 Quit	
+2019-04-12T02:08:15.217580Z	   40 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:08:15.217920Z	   40 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:08:15.218283Z	   40 Query	SELECT VERSION()
+2019-04-12T02:08:16.219886Z	   40 Query	show variables like '%general_log%'
+2019-04-12T02:08:16.233835Z	   40 Query	SHOW WARNINGS
+2019-04-12T02:08:16.246181Z	   40 Query	show variables like 'general_log_file'
+2019-04-12T02:08:16.258793Z	   40 Query	SHOW WARNINGS
+2019-04-12T02:08:16.259894Z	   40 Quit	
+2019-04-12T02:08:36.442384Z	   14 Query	show databases
+2019-04-12T02:08:46.505446Z	   14 Query	SELECT DATABASE()
+2019-04-12T02:08:46.505723Z	   14 Init DB	sql_project
+2019-04-12T02:08:52.192136Z	   14 Query	show tables
+2019-04-12T02:08:58.808150Z	   14 Query	SELECT * FROM city
+2019-04-12T02:10:29.746110Z	   41 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:10:29.746746Z	   41 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:10:29.747300Z	   41 Query	SELECT VERSION()
+2019-04-12T02:10:30.749293Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:30.754151Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:30.758063Z	   41 Query	show processlist
+2019-04-12T02:10:31.788899Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:31.793297Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:31.797014Z	   41 Query	show processlist
+2019-04-12T02:10:32.824869Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:32.828613Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:32.832516Z	   41 Query	show processlist
+2019-04-12T02:10:33.860345Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:33.864144Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:33.867660Z	   41 Query	show processlist
+2019-04-12T02:10:34.893994Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:34.900149Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:34.906761Z	   41 Query	show processlist
+2019-04-12T02:10:35.939859Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:35.944560Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:35.949423Z	   41 Query	show processlist
+2019-04-12T02:10:36.979409Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:36.983122Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:36.987051Z	   41 Query	show processlist
+2019-04-12T02:10:38.016817Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:38.021049Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:38.025375Z	   41 Query	show processlist
+2019-04-12T02:10:39.048853Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:39.051587Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:39.057833Z	   41 Query	show processlist
+2019-04-12T02:10:40.087246Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:40.090968Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:40.094619Z	   41 Query	show processlist
+2019-04-12T02:10:41.125582Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:41.129634Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:41.134195Z	   41 Query	show processlist
+2019-04-12T02:10:42.164289Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:42.168071Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:42.171682Z	   41 Query	show processlist
+2019-04-12T02:10:43.200033Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:43.203805Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:43.208134Z	   41 Query	show processlist
+2019-04-12T02:10:44.226325Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:44.229028Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:44.231333Z	   41 Query	show processlist
+2019-04-12T02:10:45.266105Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:45.270518Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:45.275913Z	   41 Query	show processlist
+2019-04-12T02:10:46.306078Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:46.309968Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:46.313684Z	   41 Query	show processlist
+2019-04-12T02:10:47.334488Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:47.336523Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:47.338182Z	   41 Query	show processlist
+2019-04-12T02:10:48.363465Z	   41 Query	show global status like 'open%tables%'
+2019-04-12T02:10:48.367416Z	   41 Query	show global status like 'Thread%'
+2019-04-12T02:10:48.371020Z	   41 Query	show processlist
+2019-04-12T02:11:19.578210Z	   42 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:11:19.578539Z	   42 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:11:19.578925Z	   42 Query	SELECT VERSION()
+2019-04-12T02:11:20.585935Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:20.603219Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:20.623334Z	   42 Query	show processlist
+2019-04-12T02:11:21.698658Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:21.714794Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:21.720146Z	   42 Query	show processlist
+2019-04-12T02:11:22.774704Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:22.780782Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:22.785990Z	   42 Query	show processlist
+2019-04-12T02:11:23.818155Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:23.820542Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:23.823182Z	   42 Query	show processlist
+2019-04-12T02:11:24.888535Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:24.898963Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:24.904665Z	   42 Query	show processlist
+2019-04-12T02:11:25.937778Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:25.940223Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:25.947201Z	   42 Query	show processlist
+2019-04-12T02:11:27.006749Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:27.014961Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:27.020019Z	   42 Query	show processlist
+2019-04-12T02:11:28.168932Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:28.173252Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:28.178561Z	   42 Query	show processlist
+2019-04-12T02:11:29.217246Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:29.218794Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:29.220361Z	   42 Query	show processlist
+2019-04-12T02:11:30.280378Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:30.290846Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:30.296803Z	   42 Query	show processlist
+2019-04-12T02:11:31.359618Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:31.398162Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:31.442000Z	   42 Query	show processlist
+2019-04-12T02:11:32.500366Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:32.509220Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:32.514667Z	   42 Query	show processlist
+2019-04-12T02:11:33.564927Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:33.573601Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:33.578872Z	   42 Query	show processlist
+2019-04-12T02:11:34.698678Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:34.726979Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:34.732102Z	   42 Query	show processlist
+2019-04-12T02:11:35.801518Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:35.809738Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:35.816034Z	   42 Query	show processlist
+2019-04-12T02:11:36.878777Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:36.886771Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:36.889734Z	   42 Query	show processlist
+2019-04-12T02:11:37.928757Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:37.933340Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:37.938645Z	   42 Query	show processlist
+2019-04-12T02:11:38.988658Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:38.996144Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:39.001475Z	   42 Query	show processlist
+2019-04-12T02:11:40.080950Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:40.087057Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:40.090584Z	   42 Query	show processlist
+2019-04-12T02:11:41.149455Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:41.156273Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:41.161183Z	   42 Query	show processlist
+2019-04-12T02:11:42.231225Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:42.237513Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:42.244688Z	   42 Query	show processlist
+2019-04-12T02:11:43.311750Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:43.319264Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:43.324927Z	   42 Query	show processlist
+2019-04-12T02:11:44.380052Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:44.381887Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:44.383539Z	   42 Query	show processlist
+2019-04-12T02:11:45.428915Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:45.431893Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:45.438306Z	   42 Query	show processlist
+2019-04-12T02:11:46.517463Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:46.524459Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:46.528694Z	   42 Query	show processlist
+2019-04-12T02:11:47.586932Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:47.594889Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:47.600863Z	   42 Query	show processlist
+2019-04-12T02:11:48.678553Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:48.684183Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:48.692240Z	   42 Query	show processlist
+2019-04-12T02:11:49.756305Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:49.763249Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:49.769051Z	   42 Query	show processlist
+2019-04-12T02:11:50.839057Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:50.845619Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:50.851030Z	   42 Query	show processlist
+2019-04-12T02:11:51.922247Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:51.928429Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:51.934927Z	   42 Query	show processlist
+2019-04-12T02:11:52.995819Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:53.004466Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:53.009596Z	   42 Query	show processlist
+2019-04-12T02:11:54.078900Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:54.087214Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:54.092994Z	   42 Query	show processlist
+2019-04-12T02:11:55.175501Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:55.184498Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:55.190187Z	   42 Query	show processlist
+2019-04-12T02:11:56.254037Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:56.263422Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:56.269439Z	   42 Query	show processlist
+2019-04-12T02:11:57.337323Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:57.345522Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:57.352646Z	   42 Query	show processlist
+2019-04-12T02:11:58.407037Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:58.415640Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:58.420238Z	   42 Query	show processlist
+2019-04-12T02:11:59.505107Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:11:59.516238Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:11:59.519799Z	   42 Query	show processlist
+2019-04-12T02:12:00.577261Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:12:00.582921Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:12:00.587092Z	   42 Query	show processlist
+2019-04-12T02:12:01.658487Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:12:01.665297Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:12:01.669587Z	   42 Query	show processlist
+2019-04-12T02:12:02.728081Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:12:02.734161Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:12:02.739371Z	   42 Query	show processlist
+2019-04-12T02:12:03.800885Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:12:03.809673Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:12:03.815823Z	   42 Query	show processlist
+2019-04-12T02:12:04.877630Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:12:04.885307Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:12:04.891929Z	   42 Query	show processlist
+2019-04-12T02:12:05.921653Z	   42 Query	show global status like 'open%tables%'
+2019-04-12T02:12:05.925323Z	   42 Query	show global status like 'Thread%'
+2019-04-12T02:12:05.928219Z	   42 Query	show processlist
+2019-04-12T02:12:08.210574Z	   43 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:12:08.211117Z	   43 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:12:08.211706Z	   43 Query	SELECT VERSION()
+2019-04-12T02:12:09.216075Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:09.235265Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:09.248477Z	   43 Query	show processlist
+2019-04-12T02:12:10.319627Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:10.337369Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:10.342202Z	   43 Query	show processlist
+2019-04-12T02:12:11.405211Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:11.410286Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:11.415993Z	   43 Query	show processlist
+2019-04-12T02:12:12.471019Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:12.475565Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:12.480419Z	   43 Query	show processlist
+2019-04-12T02:12:13.522196Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:13.526405Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:13.530832Z	   43 Query	show processlist
+2019-04-12T02:12:14.600268Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:14.605162Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:14.610103Z	   43 Query	show processlist
+2019-04-12T02:12:15.656504Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:15.658157Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:15.659558Z	   43 Query	show processlist
+2019-04-12T02:12:16.719411Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:16.724568Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:16.732083Z	   43 Query	show processlist
+2019-04-12T02:12:17.798652Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:17.805168Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:17.811087Z	   43 Query	show processlist
+2019-04-12T02:12:18.864722Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:18.867867Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:18.873409Z	   43 Query	show processlist
+2019-04-12T02:12:19.932716Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:19.940570Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:19.946120Z	   43 Query	show processlist
+2019-04-12T02:12:21.006812Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:21.014737Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:21.019968Z	   43 Query	show processlist
+2019-04-12T02:12:22.078846Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:22.086708Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:22.095901Z	   43 Query	show processlist
+2019-04-12T02:12:23.172643Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:23.180738Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:23.185913Z	   43 Query	show processlist
+2019-04-12T02:12:24.264543Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:24.273658Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:24.278875Z	   43 Query	show processlist
+2019-04-12T02:12:25.338969Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:25.346007Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:25.351784Z	   43 Query	show processlist
+2019-04-12T02:12:26.411505Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:26.421283Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:26.426548Z	   43 Query	show processlist
+2019-04-12T02:12:27.469946Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:27.472734Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:27.477025Z	   43 Query	show processlist
+2019-04-12T02:12:28.532967Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:28.541095Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:28.546530Z	   43 Query	show processlist
+2019-04-12T02:12:29.612539Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:29.621623Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:29.626779Z	   43 Query	show processlist
+2019-04-12T02:12:30.697738Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:30.701547Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:30.705283Z	   43 Query	show processlist
+2019-04-12T02:12:31.761375Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:31.765794Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:31.770525Z	   43 Query	show processlist
+2019-04-12T02:12:32.827032Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:32.835575Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:32.840928Z	   43 Query	show processlist
+2019-04-12T02:12:33.903625Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:33.906989Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:33.913674Z	   43 Query	show processlist
+2019-04-12T02:12:34.969146Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:34.978115Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:34.984147Z	   43 Query	show processlist
+2019-04-12T02:12:36.046208Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:36.051928Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:36.058452Z	   43 Query	show processlist
+2019-04-12T02:12:37.115412Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:37.123204Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:37.133176Z	   43 Query	show processlist
+2019-04-12T02:12:38.200419Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:38.206582Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:38.215300Z	   43 Query	show processlist
+2019-04-12T02:12:39.273922Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:39.280492Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:39.285714Z	   43 Query	show processlist
+2019-04-12T02:12:40.343101Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:40.351182Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:40.357208Z	   43 Query	show processlist
+2019-04-12T02:12:41.412659Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:41.421109Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:41.426623Z	   43 Query	show processlist
+2019-04-12T02:12:42.456980Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:42.459312Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:42.461520Z	   43 Query	show processlist
+2019-04-12T02:12:43.489084Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:43.492154Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:43.500880Z	   43 Query	show processlist
+2019-04-12T02:12:44.581301Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:44.587676Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:44.591263Z	   43 Query	show processlist
+2019-04-12T02:12:45.662589Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:45.671307Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:45.680732Z	   43 Query	show processlist
+2019-04-12T02:12:46.756631Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:46.763471Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:46.767698Z	   43 Query	show processlist
+2019-04-12T02:12:47.841431Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:47.852607Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:47.858275Z	   43 Query	show processlist
+2019-04-12T02:12:48.925394Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:48.933729Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:48.938850Z	   43 Query	show processlist
+2019-04-12T02:12:50.002554Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:50.010722Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:50.017616Z	   43 Query	show processlist
+2019-04-12T02:12:51.077033Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:51.083685Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:51.088869Z	   43 Query	show processlist
+2019-04-12T02:12:52.165262Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:52.174243Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:52.180189Z	   43 Query	show processlist
+2019-04-12T02:12:53.261773Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:53.268010Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:53.270785Z	   43 Query	show processlist
+2019-04-12T02:12:54.331955Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:54.338859Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:54.349307Z	   43 Query	show processlist
+2019-04-12T02:12:55.416634Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:55.423379Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:55.429095Z	   43 Query	show processlist
+2019-04-12T02:12:56.488689Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:56.496107Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:56.501204Z	   43 Query	show processlist
+2019-04-12T02:12:57.566038Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:57.575240Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:57.579914Z	   43 Query	show processlist
+2019-04-12T02:12:58.652520Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:58.661378Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:58.666614Z	   43 Query	show processlist
+2019-04-12T02:12:59.750107Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:12:59.751956Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:12:59.756586Z	   43 Query	show processlist
+2019-04-12T02:13:00.813959Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:00.822519Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:00.827533Z	   43 Query	show processlist
+2019-04-12T02:13:01.887972Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:01.894799Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:01.900488Z	   43 Query	show processlist
+2019-04-12T02:13:02.969699Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:02.974936Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:02.981142Z	   43 Query	show processlist
+2019-04-12T02:13:04.011425Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:04.017045Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:04.021104Z	   43 Query	show processlist
+2019-04-12T02:13:05.075572Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:05.086495Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:05.090809Z	   43 Query	show processlist
+2019-04-12T02:13:06.155495Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:06.163071Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:06.172031Z	   43 Query	show processlist
+2019-04-12T02:13:07.223517Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:07.226770Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:07.232572Z	   43 Query	show processlist
+2019-04-12T02:13:08.299121Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:08.306107Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:08.311092Z	   43 Query	show processlist
+2019-04-12T02:13:09.369330Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:09.374736Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:09.380765Z	   43 Query	show processlist
+2019-04-12T02:13:10.455134Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:10.458363Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:10.466157Z	   43 Query	show processlist
+2019-04-12T02:13:11.524426Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:11.532408Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:11.537497Z	   43 Query	show processlist
+2019-04-12T02:13:12.607097Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:12.614669Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:12.621328Z	   43 Query	show processlist
+2019-04-12T02:13:13.686964Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:13.697360Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:13.702537Z	   43 Query	show processlist
+2019-04-12T02:13:14.778120Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:14.785898Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:14.791624Z	   43 Query	show processlist
+2019-04-12T02:13:15.845472Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:15.852425Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:15.856707Z	   43 Query	show processlist
+2019-04-12T02:13:16.914640Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:16.924101Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:16.929725Z	   43 Query	show processlist
+2019-04-12T02:13:17.996862Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:18.004964Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:18.010424Z	   43 Query	show processlist
+2019-04-12T02:13:19.067725Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:19.076196Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:19.081265Z	   43 Query	show processlist
+2019-04-12T02:13:20.135674Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:20.142739Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:20.148675Z	   43 Query	show processlist
+2019-04-12T02:13:21.229440Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:21.232598Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:21.238415Z	   43 Query	show processlist
+2019-04-12T02:13:22.319047Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:22.324462Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:22.327345Z	   43 Query	show processlist
+2019-04-12T02:13:23.385030Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:23.391466Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:23.395824Z	   43 Query	show processlist
+2019-04-12T02:13:24.431113Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:24.433004Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:24.435332Z	   43 Query	show processlist
+2019-04-12T02:13:25.492860Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:25.501504Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:25.507828Z	   43 Query	show processlist
+2019-04-12T02:13:26.577364Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:26.584058Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:26.587860Z	   43 Query	show processlist
+2019-04-12T02:13:27.661622Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:27.669140Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:27.674500Z	   43 Query	show processlist
+2019-04-12T02:13:28.706534Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:28.708645Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:28.712107Z	   43 Query	show processlist
+2019-04-12T02:13:29.793047Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:29.800252Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:29.805454Z	   43 Query	show processlist
+2019-04-12T02:13:30.869758Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:30.877666Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:30.882859Z	   43 Query	show processlist
+2019-04-12T02:13:31.966901Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:31.975652Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:31.980351Z	   43 Query	show processlist
+2019-04-12T02:13:33.054110Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:33.058442Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:33.062680Z	   43 Query	show processlist
+2019-04-12T02:13:34.127985Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:34.133745Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:34.140080Z	   43 Query	show processlist
+2019-04-12T02:13:35.199230Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:35.206885Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:35.211887Z	   43 Query	show processlist
+2019-04-12T02:13:36.297588Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:36.306970Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:36.317750Z	   43 Query	show processlist
+2019-04-12T02:13:37.399851Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:37.409732Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:37.422278Z	   43 Query	show processlist
+2019-04-12T02:13:38.485748Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:38.492934Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:38.498599Z	   43 Query	show processlist
+2019-04-12T02:13:39.570840Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:39.577606Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:39.581313Z	   43 Query	show processlist
+2019-04-12T02:13:40.657132Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:40.665295Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:40.674453Z	   43 Query	show processlist
+2019-04-12T02:13:41.733806Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:41.740944Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:41.746693Z	   43 Query	show processlist
+2019-04-12T02:13:42.808012Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:42.816813Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:42.822186Z	   43 Query	show processlist
+2019-04-12T02:13:43.870021Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:43.873969Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:43.876906Z	   43 Query	show processlist
+2019-04-12T02:13:44.942425Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:44.949468Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:44.953516Z	   43 Query	show processlist
+2019-04-12T02:13:46.020990Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:46.030509Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:46.036550Z	   43 Query	show processlist
+2019-04-12T02:13:47.110413Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:47.120302Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:47.131273Z	   43 Query	show processlist
+2019-04-12T02:13:48.187099Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:48.195737Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:48.202213Z	   43 Query	show processlist
+2019-04-12T02:13:49.268003Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:49.271826Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:49.277285Z	   43 Query	show processlist
+2019-04-12T02:13:50.302615Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:50.304144Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:50.306277Z	   43 Query	show processlist
+2019-04-12T02:13:51.342747Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:51.345997Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:51.350935Z	   43 Query	show processlist
+2019-04-12T02:13:52.415344Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:52.419560Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:52.425272Z	   43 Query	show processlist
+2019-04-12T02:13:53.449738Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:53.451925Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:53.456862Z	   43 Query	show processlist
+2019-04-12T02:13:54.515993Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:54.525388Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:54.536525Z	   43 Query	show processlist
+2019-04-12T02:13:55.606694Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:55.615005Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:55.621169Z	   43 Query	show processlist
+2019-04-12T02:13:56.685885Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:56.691389Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:56.694782Z	   43 Query	show processlist
+2019-04-12T02:13:57.744407Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:57.752278Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:57.757294Z	   43 Query	show processlist
+2019-04-12T02:13:58.849761Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:58.854821Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:58.857477Z	   43 Query	show processlist
+2019-04-12T02:13:59.923273Z	   43 Query	show global status like 'open%tables%'
+2019-04-12T02:13:59.928083Z	   43 Query	show global status like 'Thread%'
+2019-04-12T02:13:59.930324Z	   43 Query	show processlist
+2019-04-12T02:14:25.279745Z	   44 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:14:25.280211Z	   44 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:14:25.280656Z	   44 Query	SELECT VERSION()
+2019-04-12T02:14:26.287074Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:26.307976Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:26.336143Z	   44 Query	show processlist
+2019-04-12T02:14:27.421025Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:27.439854Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:27.444705Z	   44 Query	show processlist
+2019-04-12T02:14:28.502325Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:28.507844Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:28.513819Z	   44 Query	show processlist
+2019-04-12T02:14:29.570256Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:29.575475Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:29.580581Z	   44 Query	show processlist
+2019-04-12T02:14:30.645292Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:30.649574Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:30.655310Z	   44 Query	show processlist
+2019-04-12T02:14:31.714986Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:31.720896Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:31.727071Z	   44 Query	show processlist
+2019-04-12T02:14:32.790139Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:32.795817Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:32.801510Z	   44 Query	show processlist
+2019-04-12T02:14:33.860082Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:33.865337Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:33.871328Z	   44 Query	show processlist
+2019-04-12T02:14:34.894912Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:34.896556Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:34.899351Z	   44 Query	show processlist
+2019-04-12T02:14:36.008489Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:36.011097Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:36.019648Z	   44 Query	show processlist
+2019-04-12T02:14:37.077166Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:37.085347Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:37.090931Z	   44 Query	show processlist
+2019-04-12T02:14:38.160497Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:38.169273Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:38.174504Z	   44 Query	show processlist
+2019-04-12T02:14:39.233556Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:39.241028Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:39.248272Z	   44 Query	show processlist
+2019-04-12T02:14:40.303959Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:40.312114Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:40.316643Z	   44 Query	show processlist
+2019-04-12T02:14:41.371661Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:41.379704Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:41.385050Z	   44 Query	show processlist
+2019-04-12T02:14:42.444680Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:42.452612Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:42.457989Z	   44 Query	show processlist
+2019-04-12T02:14:43.513968Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:43.522000Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:43.527523Z	   44 Query	show processlist
+2019-04-12T02:14:44.585106Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:44.594503Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:44.600004Z	   44 Query	show processlist
+2019-04-12T02:14:44.650169Z	   14 Query	show processlist
+2019-04-12T02:14:45.655634Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:45.662425Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:45.667350Z	   44 Query	show processlist
+2019-04-12T02:14:46.726326Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:46.733296Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:46.739896Z	   44 Query	show processlist
+2019-04-12T02:14:47.800365Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:47.808451Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:47.814003Z	   44 Query	show processlist
+2019-04-12T02:14:48.891548Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:48.895219Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:48.900329Z	   44 Query	show processlist
+2019-04-12T02:14:49.956753Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:49.965031Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:49.975011Z	   44 Query	show processlist
+2019-04-12T02:14:51.038550Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:51.044835Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:51.053525Z	   44 Query	show processlist
+2019-04-12T02:14:52.121380Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:52.128579Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:52.136468Z	   44 Query	show processlist
+2019-04-12T02:14:53.196041Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:53.202127Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:53.207325Z	   44 Query	show processlist
+2019-04-12T02:14:54.266405Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:54.272304Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:54.277583Z	   44 Query	show processlist
+2019-04-12T02:14:55.338210Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:55.343896Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:55.350349Z	   44 Query	show processlist
+2019-04-12T02:14:56.412288Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:56.417127Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:56.422673Z	   44 Query	show processlist
+2019-04-12T02:14:57.479991Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:57.485661Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:57.491027Z	   44 Query	show processlist
+2019-04-12T02:14:58.555584Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:58.560969Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:58.566326Z	   44 Query	show processlist
+2019-04-12T02:14:59.627253Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:14:59.632209Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:14:59.637156Z	   44 Query	show processlist
+2019-04-12T02:15:00.707656Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:00.714644Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:00.720057Z	   44 Query	show processlist
+2019-04-12T02:15:01.782175Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:01.792190Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:01.797493Z	   44 Query	show processlist
+2019-04-12T02:15:02.862289Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:02.866617Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:02.870813Z	   44 Query	show processlist
+2019-04-12T02:15:03.930489Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:03.939585Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:03.945342Z	   44 Query	show processlist
+2019-04-12T02:15:05.015318Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:05.017905Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:05.027262Z	   44 Query	show processlist
+2019-04-12T02:15:06.087288Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:06.095027Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:06.106776Z	   44 Query	show processlist
+2019-04-12T02:15:07.186749Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:07.189537Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:07.191260Z	   44 Query	show processlist
+2019-04-12T02:15:08.246604Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:08.252715Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:08.258433Z	   44 Query	show processlist
+2019-04-12T02:15:09.322883Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:09.329178Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:09.339059Z	   44 Query	show processlist
+2019-04-12T02:15:10.398613Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:10.404057Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:10.409547Z	   44 Query	show processlist
+2019-04-12T02:15:11.467654Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:11.472855Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:11.478837Z	   44 Query	show processlist
+2019-04-12T02:15:12.548032Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:12.554159Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:12.561410Z	   44 Query	show processlist
+2019-04-12T02:15:13.590142Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:13.591967Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:13.594558Z	   44 Query	show processlist
+2019-04-12T02:15:14.618096Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:14.620070Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:14.622019Z	   44 Query	show processlist
+2019-04-12T02:15:15.694382Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:15.701500Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:15.709623Z	   44 Query	show processlist
+2019-04-12T02:15:16.750780Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:16.754107Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:16.760803Z	   44 Query	show processlist
+2019-04-12T02:15:17.826852Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:17.832899Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:17.843256Z	   44 Query	show processlist
+2019-04-12T02:15:18.915507Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:18.921173Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:18.930003Z	   44 Query	show processlist
+2019-04-12T02:15:19.994733Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:20.001508Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:20.007367Z	   44 Query	show processlist
+2019-04-12T02:15:21.072933Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:21.079920Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:21.086842Z	   44 Query	show processlist
+2019-04-12T02:15:22.149805Z	   44 Query	show global status like 'open%tables%'
+2019-04-12T02:15:22.152858Z	   44 Query	show global status like 'Thread%'
+2019-04-12T02:15:22.161688Z	   44 Query	show processlist
+2019-04-12T02:15:23.503816Z	   45 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:15:23.504368Z	   45 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:15:23.505094Z	   45 Query	SELECT VERSION()
+2019-04-12T02:15:24.512245Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:24.540657Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:24.573579Z	   45 Query	show processlist
+2019-04-12T02:15:25.685812Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:25.690124Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:25.694269Z	   45 Query	show processlist
+2019-04-12T02:15:26.748000Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:26.753037Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:26.758550Z	   45 Query	show processlist
+2019-04-12T02:15:27.815291Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:27.819991Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:27.824690Z	   45 Query	show processlist
+2019-04-12T02:15:28.880556Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:28.885576Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:28.890102Z	   45 Query	show processlist
+2019-04-12T02:15:29.958006Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:29.964575Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:29.969530Z	   45 Query	show processlist
+2019-04-12T02:15:31.030224Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:31.035009Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:31.041212Z	   45 Query	show processlist
+2019-04-12T02:15:32.098481Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:32.104243Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:32.110005Z	   45 Query	show processlist
+2019-04-12T02:15:33.170619Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:33.176062Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:33.181263Z	   45 Query	show processlist
+2019-04-12T02:15:34.240300Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:34.246302Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:34.251408Z	   45 Query	show processlist
+2019-04-12T02:15:35.310743Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:35.315977Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:35.321370Z	   45 Query	show processlist
+2019-04-12T02:15:36.380036Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:36.385255Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:36.391433Z	   45 Query	show processlist
+2019-04-12T02:15:37.458764Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:37.464095Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:37.474590Z	   45 Query	show processlist
+2019-04-12T02:15:38.554052Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:38.561934Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:38.568799Z	   45 Query	show processlist
+2019-04-12T02:15:39.641711Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:39.645080Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:39.649057Z	   45 Query	show processlist
+2019-04-12T02:15:40.707938Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:40.713617Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:40.718643Z	   45 Query	show processlist
+2019-04-12T02:15:41.781676Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:41.787884Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:41.793236Z	   45 Query	show processlist
+2019-04-12T02:15:42.853082Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:42.861121Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:42.866377Z	   45 Query	show processlist
+2019-04-12T02:15:43.944733Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:43.947211Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:43.950405Z	   45 Query	show processlist
+2019-04-12T02:15:45.016604Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:45.023733Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:45.031513Z	   45 Query	show processlist
+2019-04-12T02:15:46.107491Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:46.117158Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:46.122475Z	   45 Query	show processlist
+2019-04-12T02:15:47.154161Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:47.155723Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:47.157164Z	   45 Query	show processlist
+2019-04-12T02:15:48.224298Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:48.230937Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:48.234397Z	   45 Query	show processlist
+2019-04-12T02:15:49.298107Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:49.306642Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:49.312529Z	   45 Query	show processlist
+2019-04-12T02:15:50.381000Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:50.388940Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:50.395897Z	   45 Query	show processlist
+2019-04-12T02:15:51.464832Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:51.470677Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:51.479750Z	   45 Query	show processlist
+2019-04-12T02:15:52.518642Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:52.520932Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:52.522840Z	   45 Query	show processlist
+2019-04-12T02:15:53.549789Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:53.551479Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:53.553743Z	   45 Query	show processlist
+2019-04-12T02:15:54.597922Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:54.599844Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:54.602228Z	   45 Query	show processlist
+2019-04-12T02:15:55.625770Z	   45 Query	show global status like 'open%tables%'
+2019-04-12T02:15:55.627594Z	   45 Query	show global status like 'Thread%'
+2019-04-12T02:15:55.629342Z	   45 Query	show processlist
+2019-04-12T02:15:56.528549Z	   46 Connect	root@localhost on sql_project using TCP/IP
+2019-04-12T02:15:56.528955Z	   46 Query	SET AUTOCOMMIT = 0
+2019-04-12T02:15:56.529436Z	   46 Query	SELECT VERSION()
+2019-04-12T02:15:57.535140Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:15:57.557870Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:15:57.576976Z	   46 Query	show processlist
+2019-04-12T02:15:58.655351Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:15:58.669562Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:15:58.673862Z	   46 Query	show processlist
+2019-04-12T02:15:59.727008Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:15:59.734403Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:15:59.739126Z	   46 Query	show processlist
+2019-04-12T02:16:00.799384Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:00.806868Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:00.811512Z	   46 Query	show processlist
+2019-04-12T02:16:01.874085Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:01.879369Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:01.884692Z	   46 Query	show processlist
+2019-04-12T02:16:02.944149Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:02.950666Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:02.955122Z	   46 Query	show processlist
+2019-04-12T02:16:04.017781Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:04.022968Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:04.027158Z	   46 Query	show processlist
+2019-04-12T02:16:05.091915Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:05.097649Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:05.102583Z	   46 Query	show processlist
+2019-04-12T02:16:06.165925Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:06.171330Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:06.178342Z	   46 Query	show processlist
+2019-04-12T02:16:07.235323Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:07.240348Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:07.245515Z	   46 Query	show processlist
+2019-04-12T02:16:08.305419Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:08.313424Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:08.318177Z	   46 Query	show processlist
+2019-04-12T02:16:09.395256Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:09.402531Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:09.407682Z	   46 Query	show processlist
+2019-04-12T02:16:10.472496Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:10.482356Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:10.487368Z	   46 Query	show processlist
+2019-04-12T02:16:11.549711Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:11.560326Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:11.564888Z	   46 Query	show processlist
+2019-04-12T02:16:12.636422Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:12.645218Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:12.651115Z	   46 Query	show processlist
+2019-04-12T02:16:13.717698Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:13.725873Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:13.731081Z	   46 Query	show processlist
+2019-04-12T02:16:14.790814Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:14.798605Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:14.805821Z	   46 Query	show processlist
+2019-04-12T02:16:15.871983Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:15.878207Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:15.882376Z	   46 Query	show processlist
+2019-04-12T02:16:16.945889Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:16.948976Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:16.953941Z	   46 Query	show processlist
+2019-04-12T02:16:18.007625Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:18.014745Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:18.020503Z	   46 Query	show processlist
+2019-04-12T02:16:19.076441Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:19.082960Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:19.088133Z	   46 Query	show processlist
+2019-04-12T02:16:20.146401Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:20.153685Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:20.157922Z	   46 Query	show processlist
+2019-04-12T02:16:21.211756Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:21.219906Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:21.225432Z	   46 Query	show processlist
+2019-04-12T02:16:22.287202Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:22.291155Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:22.295667Z	   46 Query	show processlist
+2019-04-12T02:16:23.357971Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:23.366195Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:23.370009Z	   46 Query	show processlist
+2019-04-12T02:16:24.426364Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:24.433698Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:24.438447Z	   46 Query	show processlist
+2019-04-12T02:16:25.505269Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:25.513749Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:25.518508Z	   46 Query	show processlist
+2019-04-12T02:16:26.576065Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:26.583142Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:26.587772Z	   46 Query	show processlist
+2019-04-12T02:16:27.650868Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:27.657455Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:27.662793Z	   46 Query	show processlist
+2019-04-12T02:16:28.733122Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:28.743759Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:28.748970Z	   46 Query	show processlist
+2019-04-12T02:16:29.814507Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:29.822333Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:29.830869Z	   46 Query	show processlist
+2019-04-12T02:16:30.888122Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:30.896796Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:30.901445Z	   46 Query	show processlist
+2019-04-12T02:16:31.963033Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:31.971409Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:31.976474Z	   46 Query	show processlist
+2019-04-12T02:16:33.048019Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:33.060083Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:33.064844Z	   46 Query	show processlist
+2019-04-12T02:16:34.129982Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:34.138346Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:34.142928Z	   46 Query	show processlist
+2019-04-12T02:16:35.205957Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:35.214329Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:35.219981Z	   46 Query	show processlist
+2019-04-12T02:16:36.279165Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:36.287258Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:36.291991Z	   46 Query	show processlist
+2019-04-12T02:16:37.356441Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:37.361430Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:37.366586Z	   46 Query	show processlist
+2019-04-12T02:16:38.426508Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:38.435157Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:38.439835Z	   46 Query	show processlist
+2019-04-12T02:16:39.505985Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:39.514336Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:39.519558Z	   46 Query	show processlist
+2019-04-12T02:16:40.581206Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:40.589141Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:40.594200Z	   46 Query	show processlist
+2019-04-12T02:16:41.654998Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:41.664628Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:41.670072Z	   46 Query	show processlist
+2019-04-12T02:16:42.728765Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:42.736122Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:42.741520Z	   46 Query	show processlist
+2019-04-12T02:16:43.803238Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:43.810974Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:43.815660Z	   46 Query	show processlist
+2019-04-12T02:16:44.879331Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:44.885926Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:44.890571Z	   46 Query	show processlist
+2019-04-12T02:16:45.953946Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:45.962739Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:45.968318Z	   46 Query	show processlist
+2019-04-12T02:16:47.027229Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:47.034973Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:47.040057Z	   46 Query	show processlist
+2019-04-12T02:16:48.099756Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:48.109035Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:48.114084Z	   46 Query	show processlist
+2019-04-12T02:16:49.187292Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:49.194263Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:49.200974Z	   46 Query	show processlist
+2019-04-12T02:16:50.264458Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:50.270862Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:50.276297Z	   46 Query	show processlist
+2019-04-12T02:16:51.335541Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:51.343242Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:51.347943Z	   46 Query	show processlist
+2019-04-12T02:16:52.410656Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:52.418525Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:52.423339Z	   46 Query	show processlist
+2019-04-12T02:16:53.458649Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:53.460807Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:53.462760Z	   46 Query	show processlist
+2019-04-12T02:16:54.520967Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:54.528081Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:54.532713Z	   46 Query	show processlist
+2019-04-12T02:16:55.590563Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:55.599017Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:55.603969Z	   46 Query	show processlist
+2019-04-12T02:16:56.668665Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:56.676119Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:56.681249Z	   46 Query	show processlist
+2019-04-12T02:16:57.740673Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:57.749894Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:57.754791Z	   46 Query	show processlist
+2019-04-12T02:16:58.817786Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:58.825944Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:58.832230Z	   46 Query	show processlist
+2019-04-12T02:16:59.888966Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:16:59.897884Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:16:59.902615Z	   46 Query	show processlist
+2019-04-12T02:17:00.962988Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:00.970408Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:00.976094Z	   46 Query	show processlist
+2019-04-12T02:17:02.011711Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:02.014570Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:02.018762Z	   46 Query	show processlist
+2019-04-12T02:17:03.070256Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:03.078276Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:03.082498Z	   46 Query	show processlist
+2019-04-12T02:17:04.138541Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:04.147101Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:04.152291Z	   46 Query	show processlist
+2019-04-12T02:17:05.215742Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:05.222980Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:05.232218Z	   46 Query	show processlist
+2019-04-12T02:17:06.285814Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:06.294119Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:06.298497Z	   46 Query	show processlist
+2019-04-12T02:17:07.362530Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:07.368696Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:07.374414Z	   46 Query	show processlist
+2019-04-12T02:17:08.435368Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:08.443170Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:08.448155Z	   46 Query	show processlist
+2019-04-12T02:17:09.509028Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:09.515038Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:09.520421Z	   46 Query	show processlist
+2019-04-12T02:17:10.577363Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:10.582704Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:10.588274Z	   46 Query	show processlist
+2019-04-12T02:17:11.653049Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:11.660416Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:11.664995Z	   46 Query	show processlist
+2019-04-12T02:17:12.727439Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:12.739580Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:12.746217Z	   46 Query	show processlist
+2019-04-12T02:17:13.804937Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:13.812447Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:13.818410Z	   46 Query	show processlist
+2019-04-12T02:17:14.874910Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:14.883397Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:14.884386Z	   14 Query	SELECT * FROM city
+2019-04-12T02:17:14.885542Z	   46 Query	show processlist
+2019-04-12T02:17:15.922389Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:15.925833Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:15.928879Z	   46 Query	show processlist
+2019-04-12T02:17:16.986305Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:16.993890Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:16.998933Z	   46 Query	show processlist
+2019-04-12T02:17:18.058994Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:18.066475Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:18.071207Z	   46 Query	show processlist
+2019-04-12T02:17:19.125724Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:19.133534Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:19.138248Z	   46 Query	show processlist
+2019-04-12T02:17:19.557723Z	   14 Query	SELECT * FROM city
+2019-04-12T02:17:19.758627Z	   14 Query	SELECT * FROM city
+2019-04-12T02:17:19.962647Z	   14 Query	SELECT * FROM city
+2019-04-12T02:17:20.144342Z	   14 Query	SELECT * FROM city
+2019-04-12T02:17:20.178060Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:20.181359Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:20.183251Z	   46 Query	show processlist
+2019-04-12T02:17:20.420429Z	   14 Query	SELECT * FROM city
+2019-04-12T02:17:20.531855Z	   14 Query	SELECT * FROM city
+2019-04-12T02:17:20.750987Z	   14 Query	SELECT * FROM city
+2019-04-12T02:17:20.906125Z	   14 Query	SELECT * FROM city
+2019-04-12T02:17:21.250043Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:21.260173Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:21.265874Z	   46 Query	show processlist
+2019-04-12T02:17:22.328178Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:22.334677Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:22.340042Z	   46 Query	show processlist
+2019-04-12T02:17:23.384895Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:23.387784Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:23.392040Z	   46 Query	show processlist
+2019-04-12T02:17:24.445234Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:24.453000Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:24.457996Z	   46 Query	show processlist
+2019-04-12T02:17:25.516122Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:25.523918Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:25.528804Z	   46 Query	show processlist
+2019-04-12T02:17:26.597871Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:26.612556Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:26.619474Z	   46 Query	show processlist
+2019-04-12T02:17:27.678344Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:27.685616Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:27.689944Z	   46 Query	show processlist
+2019-04-12T02:17:28.756978Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:28.762410Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:28.767051Z	   46 Query	show processlist
+2019-04-12T02:17:29.828368Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:29.833812Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:29.838934Z	   46 Query	show processlist
+2019-04-12T02:17:30.900330Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:30.905895Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:30.910309Z	   46 Query	show processlist
+2019-04-12T02:17:31.966945Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:31.986299Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:31.989032Z	   46 Query	show processlist
+2019-04-12T02:17:33.044993Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:33.052468Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:33.057195Z	   46 Query	show processlist
+2019-04-12T02:17:34.123907Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:34.133397Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:34.139024Z	   46 Query	show processlist
+2019-04-12T02:17:35.199241Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:35.204424Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:35.209137Z	   46 Query	show processlist
+2019-04-12T02:17:36.276400Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:36.283585Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:36.288315Z	   46 Query	show processlist
+2019-04-12T02:17:37.353027Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:37.360171Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:37.369374Z	   46 Query	show processlist
+2019-04-12T02:17:38.423482Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:38.430949Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:38.435644Z	   46 Query	show processlist
+2019-04-12T02:17:39.497109Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:39.503829Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:39.509299Z	   46 Query	show processlist
+2019-04-12T02:17:40.571680Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:40.580925Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:40.585487Z	   46 Query	show processlist
+2019-04-12T02:17:41.645407Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:41.653612Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:41.659627Z	   46 Query	show processlist
+2019-04-12T02:17:42.712666Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:42.720314Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:42.726468Z	   46 Query	show processlist
+2019-04-12T02:17:43.781330Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:43.786411Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:43.791937Z	   46 Query	show processlist
+2019-04-12T02:17:44.839337Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:44.840913Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:44.842195Z	   46 Query	show processlist
+2019-04-12T02:17:45.893339Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:45.900913Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:45.906088Z	   46 Query	show processlist
+2019-04-12T02:17:46.980774Z	   46 Query	show global status like 'open%tables%'
+2019-04-12T02:17:46.989332Z	   46 Query	show global status like 'Thread%'
+2019-04-12T02:17:46.993183Z	   46 Query	show processlist
