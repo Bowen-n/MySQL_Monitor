@@ -1,6 +1,6 @@
 # MySQL Monitor in Python
 
-This is my project for *IS214:Database Theory* in SJTU. I develop a **log monitor** and **status monitor** for **MySQL** Database with python. For log monitor, I referred to repo [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor). Based on that, I added a status monitor to this project.
+:smile:This is my project for *IS214:Database Theory* in SJTU. I develop a **log monitor** and **status monitor** for **MySQL** Database with python. For log monitor, I referred to repo [MySQLMonitor](https://github.com/TheKingOfDuck/MySQLMonitor). Based on that, I added a status monitor to this project.
 
 ## Preparation
 1. Install [MySQL](https://www.mysql.com/). A guideline for installing can be found [here](http://www.runoob.com/mysql/mysql-install.html?tdsourcetag=s_pctim_aiomsg).
@@ -21,4 +21,4 @@ This is my project for *IS214:Database Theory* in SJTU. I develop a **log monito
 ![status monitor](/screenshots/status_monitor.jpg)
 
 
-### Hope you have fun :)
+### Hope you have fun :smile:
