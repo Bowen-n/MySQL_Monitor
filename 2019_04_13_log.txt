@@ -1,0 +1,10 @@
+D:\mysql\mysql-8.0.15-winx64\bin\mysqld, Version: 8.0.15 (MySQL Community Server - GPL). started with:
+TCP Port: 3306, Named Pipe: MySQL
+Time                 Id Command    Argument
+2019-04-12T16:11:20.714432Z	    9 Query	show variables like '%general_log%'
+2019-04-12T16:11:20.718536Z	    9 Query	SHOW WARNINGS
+2019-04-12T16:11:20.722276Z	    9 Query	show variables like 'general_log_file'
+2019-04-12T16:11:20.726570Z	    9 Query	SHOW WARNINGS
+2019-04-12T16:12:16.123603Z	    9 Query	show variables like 'general_log_file'
+2019-04-12T16:12:16.130926Z	    9 Query	SHOW WARNINGS
+2019-04-12T16:12:16.131660Z	    9 Quit	

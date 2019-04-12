@@ -11,9 +11,14 @@ This is my project for *IS214:Database Theory* in SJTU. I develop a **log monito
 ## How tu Use
 1. Open file *config.ini* . Usually you only need to change **passward** and **db_name** to your own in this file.
 
-2. Run *main_logmonitor.py* to start **Log Monitor**. It can monitor the commands used by all users of the database in real time.
+2. Run *main_logmonitor.py* to start **Log Monitor**. It can monitor the commands used by all users of the database in real time. The output is shown as follow:
 
-3. Run *main_statusmonitor.py* to start **Status Monitor**. It can monitor the status like using tables, threads, connection list of the database in real time.
+![log monitor](/screenshots/log_monitor.jpg)
+
+
+3. Run *main_statusmonitor.py* to start **Status Monitor**. It can monitor the status like using tables, threads, connection list of the database in real time. The output is shown as follow:
+
+![status monitor](/screenshots/status_monitor.jpg)
 
 
 ### Hope you have fun :)
