@@ -19,6 +19,6 @@
 I'll show some screenshots of this project to let you understand this repo more clearly.
 
 
-### Hope you have fun :)
+### Hope you have fun :blush:
 
 
