@@ -24,8 +24,4 @@
 
 ![status monitor](/screenshots/status_monitor.jpg)
 
-## TODO
-:triangular_flag_on_post: I'll add the structure of my code later 
-
-
 ### Hope you have fun :relaxed:
