@@ -7,6 +7,10 @@
 
 2. Install PyMySQL using <code>pip install pymysql</code> in your terminal. If you install pymysql successfully, you can run *pymysql_demo.py* to take a peek of pymysql. Don't forget to change the parameters in line 3 and SQL command in line 11.
 
+## Structure
+1. In *monitor.py*, both log monitor(function) and status monitor(class) are defined.
+2. *utils.py* offers functions to connect MySQL database and execute SQL commands.
+3. Both *main_logmonitor.py* and *main_statusmonitor.py* are the running file.
 
 ## How to Use
 1. Open file *config.ini* . Usually you only need to change **passward** and **db_name** to your own in this file.
